@@ -4,6 +4,7 @@ Plots Resonant Arguments of Simulations currently exclusive to VPLanet
 Run the following terminal commands to simulate any of the following posted examples.
 One must run the simulator (vplanet) to produce results.
 vmmr.py takes the results to detect Resonant Arguments currently up to 3rd order.
+
 .. code-block:: bash
 
     # 1. Run the VPLanet simulation
