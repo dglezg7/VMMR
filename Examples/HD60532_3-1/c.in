@@ -2,7 +2,7 @@
 sName                     c          # Body's name
 saModules                 spinbody       # Modules to apply, exact spelling required
 
-# Physical Properties https://arxiv.org/pdf/0809.3862.pdf
+# Physical Properties https://arxiv.org/pdf/1608.08257.pdf
 dMass                     -798           # Mass, negative -> Earth masses
 
 # SpiNBody Properties

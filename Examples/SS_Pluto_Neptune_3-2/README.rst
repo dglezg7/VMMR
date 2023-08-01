@@ -1,10 +1,9 @@
-N-body Orbital Evolution of the Solar System: Pluto-Neptune
+Pluto and Neptune: a 3:2 First Order Resonance
 ============
 
-Overview
 --------
 
-Resonant Argument pairs of the solar system
+Simulation Info:
 
 ===================   ============
 **Date**              2023/08/01
@@ -13,20 +12,22 @@ Resonant Argument pairs of the solar system
 **Approx. runtime**   1 hour (3.8 GHz CPU base clock)
 ===================   ============
 
-This example produces all potential 1st-3rd order orbital frequency ratios of all planetary pairs in the solar system. 
+This example produces all potential 1st-3rd order orbital frequency ratios of all planetary pairs in the solar system. I left the directory "Smaller_dEta" for anybody curious to note the convergence of values in relation to the default dEta = 1.0e-2. All bdoies convergence except for the Venus-Mercury, an interesting case for anybody curious to continue investigating.
 
 To run this example
 -------------------
 
 .. code-block:: bash
+    # Run vplanet to produce the results
+    vplanet vpl.in
 
     # Run the calculator to produce the png files.
-    python VMMR_Calc.py png
+    python vmmr.py png
     
     # If you want to observe the next image, press "x" on the currently observed image.
 
     # To produce a pdf
-    python VMMR_Calc.py pdf
+    python vmmr.py pdf
 
 Expected output
 ---------------
@@ -35,4 +36,4 @@ Expected output
    :width: 600px
    :align: center
 
-VPLanet shows that the Pluto-Neptune 3:2 MMR remains stable up to 1 million years. The Resonant argument on the top panel slowly circulates roughly every 800 kyears while on the bottom panel the angle centers itself at 180 degrees and remains librating.
+The Pluto-Neptune 3:2 MMR remains stable up to 1 million years. The Resonant argument on the top panel slowly circulates roughly every 800 kyears while on the bottom panel the angle centers itself at 180 degrees and remains librating.
