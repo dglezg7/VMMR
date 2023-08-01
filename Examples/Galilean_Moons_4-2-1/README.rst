@@ -32,14 +32,8 @@ To run this example
 Expected output
 ---------------
 
-.. figure:: ResArgPair_Europa_Io.png
-   :width: 600px
-   :align: center
+.. figure:: ResArgPair_Europa_Io.png?raw=True
 
-.. figure:: ResArgPair_Ganymede_Europa.png
-   :width: 600px
-   :align: center
+.. figure:: ResArgPair_Ganymede_Europa.png?raw=True
 
-.. figure:: ResArgPair_Ganymede_Io.png
-   :width: 600px
-   :align: center     
+.. figure:: ResArgPair_Ganymede_Io.png?raw=True     

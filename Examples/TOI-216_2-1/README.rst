@@ -33,8 +33,6 @@ To run this example
 Expected output
 ---------------
 
-.. figure:: ResArgPair_c_b.png
-   :width: 600px
-   :align: center
+.. figure:: ResArgPair_c_b.png?raw=True
 
 The two planets show a case of high-amplitude libration on the top panel for up to 1 million years.

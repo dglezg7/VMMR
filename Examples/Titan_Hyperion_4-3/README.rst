@@ -32,8 +32,6 @@ To run this example
 Expected output
 ---------------
 
-.. figure:: ResArgPair_hyperion_titan.png
-   :width: 600px
-   :align: center
+.. figure:: ResArgPair_hyperion_titan.png?raw=True
 
 Hyperion and Titan remain stable up to 1000 years as shown in the bottom panel, where the Resonant Argument oscillates at a high amplitude around 180 degrees.

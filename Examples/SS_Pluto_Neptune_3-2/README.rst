@@ -32,8 +32,6 @@ To run this example
 Expected output
 ---------------
 
-.. figure:: ResArgPair_Pluto_Neptune.png
-   :width: 600px
-   :align: center
+.. figure:: ResArgPair_Pluto_Neptune.png?raw=True
 
 The Pluto-Neptune 3:2 MMR remains stable up to 1 million years. The Resonant argument on the top panel slowly circulates roughly every 800 kyears while on the bottom panel the angle centers itself at 180 degrees and remains librating.

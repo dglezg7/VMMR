@@ -33,8 +33,6 @@ To run this example
 Expected output
 ---------------
 
-.. figure:: ResArgPair_c_b.png
-   :width: 600px
-   :align: center
+.. figure:: ResArgPair_c_b.png?raw=True
 
 Even with the lack information, the two planets still show a case of high-amplitude libration for 2 out of the 3 resonant arguments for up to 1 million years.
