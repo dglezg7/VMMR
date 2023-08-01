@@ -1,9 +1,11 @@
-# VMMR Calculator: Virtual Mean Motion Resonance Calculator
-Plots Resonant Arguments of Simulations currently exclusive to VPLanet
+VMMR Calculator: Virtual Mean Motion Resonance Calculator
+============
 
-Run the following terminal commands to simulate any of the following posted examples.
-One must run the simulator (vplanet) to produce results.
-vmmr.py takes the results to detect Resonant Arguments currently up to 3rd order.
+Plots Resonant Arguments of Simulations currently exclusive to VPLanet: https://github.com/VirtualPlanetaryLaboratory/vplanet
+
+Run the following terminal commands to simulate any of the following posted examples or your own work.
+First, run the simulator (vplanet) to produce results.
+second, run vmmr.py. It takes the results to detect Resonant Arguments currently up to 3rd order.
 
 .. code-block:: bash
 
