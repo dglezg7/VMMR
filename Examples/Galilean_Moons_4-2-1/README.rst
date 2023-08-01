@@ -14,21 +14,6 @@ Simulation Info:
 
 This example produces all potential 1st-3rd order orbital frequency ratios of all the Galilean satellite pairs in the Jovian system. While VMMR can confirm the two first order resonances and the single 3rd order resonance (Ganymede-Io, 4:1), these figures do not show the Laplace Resonant Arguments.
 
-To run this example
--------------------
-
-.. code-block:: bash
-    # Run vplanet to produce the results
-    vplanet vpl.in
-
-    # Run the calculator to produce the png files.
-    python vmmr.py png
-    
-    # If you want to observe the next image, press "x" on the currently observed image.
-
-    # To produce pdf files
-    python vmmr.py pdf
-
 Expected output
 ---------------
 
