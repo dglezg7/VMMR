@@ -1,0 +1,9 @@
+sName		saturn		# Body's name
+saModules 	spinbody        # Modules
+
+bUseOrbParams	1
+
+# Physical Parameters			# Values obtained from Murray & Dermott 1999
+dMass		    -95.1620        # Mass, negative -> Earth masses
+
+saOutputOrder Time PositionXSpiNBody PositionYSpiNBody PositionZSpiNBody VelXSpiNBody VelYSpiNBody VelZSpiNBody

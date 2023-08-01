@@ -1,0 +1,9 @@
+sName		Jupiter	# Body's name
+saModules 	spinbody        # Modules
+
+bUseOrbParams	1
+
+# Physical Parameters (https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html)
+dMass		    -317.83        # Mass, negative -> Earth masses
+
+saOutputOrder Time TotEnergy

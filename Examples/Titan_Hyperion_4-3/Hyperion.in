@@ -1,0 +1,22 @@
+sName		hyperion			# Body's name
+saModules 	spinbody          # Modules
+
+bUseOrbParams	1
+
+# Physical Properties			# Values obtained from Murray & Dermott 1999. negligible mass from Wiki. dArgP, dLongA, and dMeanA obtained from https://ssd.jpl.nasa.gov/sats/elem/
+dMass		9.40789e-7  		# Mass, negative -> Earth masses
+dRadius	-0.02242  		# Radius, negative -> Earth radii
+
+# Orbital Properties
+dEcc 		0.1042
+dSemi          1481500          # Semi-major axis, negative -> AU
+#dOrbPeriod	21.276609	# Orbital period, negative -> days
+dInc            0.43             # Orbital inclination (degrees)
+dArgP		214.0		# Argument of pericenter (degrees)
+dLongA           0.6            # Longitude of the Ascending node (degrees)
+#dLongP 	51.6
+dMeanA 	122.9
+#sOrbitModel     rd4             # Use 4th Order disturbing function model
+
+#Output
+saOutputOrder Time MeanLongitude LongP LongA -TotEn -TotAngMom SemimajorAxis OrbPeriod Eccentricity PositionXSpiNBody PositionYSpiNBody PositionZSpiNBody VelXSpiNBody VelYSpiNBody VelZSpiNBody

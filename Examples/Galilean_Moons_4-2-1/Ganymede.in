@@ -1,0 +1,20 @@
+sName		Ganymede	# Body's name
+saModules 	spinbody       # Modules
+
+bUseOrbParams	1
+
+# Physical Properties			#VALUES OBTAINED FROM https://nssdc.gsfc.nasa.gov/planetary/factsheet/joviansatfact.html
+dMass		1481.9e20  		# Mass, negative -> Earth masses
+dRadius	2631.2  		# Radius, negative -> Earth radii
+
+# Orbital Properties (https://ssd.jpl.nasa.gov/sats/elem/)
+dSemi          1070400          # Semi-major axis, negative -> AU
+dEcc 		0.001
+dInc           0.2             # Orbital inclination (degrees)
+#dArgP		198.3		# Argument of pericenter (degrees)
+dLongA         58.5            # Longitude of the Ascending node (degrees)
+dLongP 	256.8           # Calculated from ArgP and LongA
+dMeanA 	324.8
+
+#Output
+saOutputOrder Time MeanLongitude LongP LongA OrbPeriod Eccentricity

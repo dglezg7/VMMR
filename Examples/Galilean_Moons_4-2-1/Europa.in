@@ -1,0 +1,20 @@
+sName		Europa		# Body's name
+saModules 	spinbody       # Modules
+
+bUseOrbParams	1
+
+# Physical Properties			#VALUES OBTAINED FROM https://nssdc.gsfc.nasa.gov/planetary/factsheet/joviansatfact.html
+dMass		480.0e20  		# Mass, negative -> Earth masses
+dRadius	1560.8  		# Radius, negative -> Earth radii
+
+# Orbital Properties (https://ssd.jpl.nasa.gov/sats/elem/)
+dSemi          671100          # Semi-major axis, negative -> AU
+dEcc 		0.009
+dInc           0.5             # Orbital inclination (degrees)
+#dArgP		45.0		# Argument of pericenter (degrees)
+dLongA         184.0            # Longitude of the Ascending node (degrees)
+dLongP 	229.0           # Calculated from ArgP and LongA
+dMeanA 	345.4
+
+#Output
+saOutputOrder Time MeanLongitude LongP LongA OrbPeriod Eccentricity

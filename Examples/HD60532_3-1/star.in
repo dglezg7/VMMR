@@ -1,0 +1,10 @@
+sName		star		# Body's name
+saModules 	spinbody        # Modules
+
+bUseOrbParams	1
+
+# Physical Parameters https://arxiv.org/pdf/0809.3862.pdf
+dMass		    1.50        # Mass, negative -> Earth masses
+
+#Output
+saOutputOrder Time TotEnergy

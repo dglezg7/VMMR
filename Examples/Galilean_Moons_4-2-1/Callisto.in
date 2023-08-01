@@ -1,0 +1,20 @@
+sName		Callisto	# Body's name
+saModules 	spinbody       # Modules
+
+bUseOrbParams	1
+
+# Physical Properties			#VALUES OBTAINED FROM https://nssdc.gsfc.nasa.gov/planetary/factsheet/joviansatfact.html
+dMass		1075.9e20  		# Mass, negative -> Earth masses
+dRadius	2410.3  		# Radius, negative -> Earth radii
+
+# Orbital Properties (https://ssd.jpl.nasa.gov/sats/elem/)
+dSemi          1882700          # Semi-major axis, negative -> AU
+dEcc 		0.007
+dInc           0.3             # Orbital inclination (degrees)
+#dArgP		43.8		# Argument of pericenter (degrees)
+dLongA         309.1            # Longitude of the Ascending node (degrees)
+dLongP 	352.9           # Calculated from ArgP and LongA
+dMeanA 	87.4
+
+#Output
+saOutputOrder Time MeanLongitude LongP LongA OrbPeriod Eccentricity

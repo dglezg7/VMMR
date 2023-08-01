@@ -1,0 +1,13 @@
+# Sun's parameters
+sName                     Sun               # Body's name
+saModules                 spinbody          # Modules to apply, exact spelling required
+
+# Physical Properties
+dMass                     -333000.0            # Mass, negative -> Earth masses
+dRadius                   -1000.0            # Radius, negative -> Earth radii
+
+# SpiNBody Properties
+bUseOrbParams                    1
+
+#Output
+saOutputOrder Time TotEnergy
